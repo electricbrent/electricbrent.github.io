@@ -8,6 +8,10 @@
 */
 
 /* Reset */
+	
+	#two .icon {
+				margin: 40px;
+			}
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -3093,7 +3097,9 @@
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
-
+			#two .icon {
+					margin: 40px;
+				}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3111,7 +3117,9 @@
 /* Large */
 
 	@media screen and (max-width: 1140px) {
-
+				#two .icon {
+						margin: 35px;
+					}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3167,7 +3175,9 @@
 /* Medium */
 
 	@media screen and (max-width: 980px) {
-
+			#two .icon {
+					margin: 30px;
+				}
 		/* List */
 
 			ul.major-icons li {
@@ -3217,7 +3227,9 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-
+			#two .icon {
+				margin: 25px;
+			}
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
@@ -3300,7 +3312,9 @@
 	@media screen and (max-width: 480px) {
 
 		/* List */
-
+			#two .icon {
+				margin: 10px;
+			}
 			ul.actions {
 				margin: 0 0 0 0;
 			}
@@ -3408,6 +3422,9 @@
 			#footer {
 				padding: 2em 1em 2em 1em ;
 			}
+			#two .icon {
+				margin: 10px;
+			}
 
 	}
 .responsive {
@@ -3427,15 +3444,23 @@
 	margin-top: -20px;
 }
 
-#two .icon {
-	margin: 10px;
-	cursor:pointer;
 
-}
 .picsize {
 	border: 5px solid #ffffff
 }
 
 .padded {
 	margin-bottom: 20px;
+}
+
+#two .icon {
+	cursor:pointer;
+
+}
+
+.mystory {
+	width: "80%";
+	max-height: "370px";
+	max-width: "500px";
+	border: 5px solid #ffffff;
 }
