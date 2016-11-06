@@ -2270,7 +2270,7 @@
 			color: #555;
 			cursor: default;
 			display: inline-block;
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0 0;
 		}
 
 			.icon.major:before {
@@ -2283,7 +2283,7 @@
 			}
 
 			.icon.major:before {
-				font-size: 4em;
+				font-size: 3em;
 				line-height: 1em;
 			}
 
@@ -3428,11 +3428,14 @@
 }
 
 #two .icon {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin: 10px;
 	cursor:pointer;
 
 }
 .picsize {
 	border: 5px solid #ffffff
+}
+
+.padded {
+	margin-bottom: 20px;
 }
